@@ -1,0 +1,177 @@
+﻿/* CSS RESET */
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+:focus { outline: 0; } /* remember to define focus styles! */
+ins { text-decoration: none; } /* remember to highlight inserts somehow! */
+del { text-decoration: line-through; }
+table { border-collapse: collapse; border-spacing: 0; } /* tables still need 'cellspacing="0"' in the markup */
+
+/**********/
+/* Layout */
+/**********/
+
+#header { padding: .5em .5em 1em .5em; font-size: 1.6em; }
+#header p {  }
+#header p.subtitle { margin-top: 1em; }
+#header .right { float: right; }
+
+#navigation { float: left; width: 200px; padding: 1em 0 1em; }
+
+#page { margin-left: 200px; padding: 0 .5em 1em .5em; }
+
+#footer { clear: both; padding: 1em 0; }
+
+#footer ul { list-style: none none outside; margin: 0; padding: 0; }
+#footer ul li { margin: 0; padding: 0; }
+#footer ul li a { display: block; float: left; }
+
+/**********/
+/* Theme  */
+/**********/
+
+body, table { font-family: Calibri, Trebuchet MS, Tahoma, Sans-Serif; }
+
+a { color: #4b44c8; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+h1 { font-size: 1.4em; padding: .5em 0; }
+    #page h1 { font-size: 1.5em; }
+h2 { font-size: 1.2em; }
+    h2.separator { border-bottom: solid 1px #000; padding-bottom: 4px; margin-bottom: 2px; }
+    #page h2 { font-size: 1.2em; }
+h3 { font-size: 1.1em; }
+    #page h3 { font-size: 1em; }
+
+p { margin: .5em 0; }
+
+sup { vertical-align: super; font-size: .83em; }
+
+/* HTML 4 fallback */
+nav, article, footer, header { display: block; }
+
+#page h1, #page h2, #page h3, #page h4 { font-family: 'Artifika', Calibri, Trebuchet MS, Tahoma, Sans-Serif; font-weight: normal; }
+
+ul { list-style: disc none inside; }
+ul li,
+ol li { margin-left: 1em; }
+
+table td { vertical-align: top; }
+
+#header { border-bottom: 1px solid #E7DFC6; background-color: #F3EFE2;  }
+#header p { font-family: 'Artifika', Calibri, Trebuchet MS, Tahoma, Sans-Serif; margin: 0; }
+#header p.subtitle { font-size: .5em; font-family: Calibri, Trebuchet MS, Tahoma, Sans-Serif;}
+#header img { border: 1px solid #E7DFC6; padding: 2px; background: #fff; }
+
+#navigation { font-size: .8em; border-right: 1px solid #E7DFC6; overflow: auto; }
+#navigation ul { list-style: none none inside; padding: 0; margin: 0 0 .2em 0; }
+#navigation li { margin: 0 0 0 .5em; }
+#navigation > ul > li { margin-bottom: 1em; }
+#navigation p { margin: .5em; text-align: center; font-size:.85em; }
+
+#page { border-left: 1px solid #E7DFC6;  }
+
+#footer { border-top: 1px solid #E7DFC6; background: #F3EFE2; font-size: .9em; color: #666; text-align: center; }
+
+/***********************/
+/* CSS Specifique Wiki */
+/***********************/
+
+#TocContainer { display: none; }
+
+table.page { width: 100%; }
+table.espace-col td { padding: 0 12px; }
+
+.tablo caption { font-size: 1.1em; font-weight: bold; }
+.tablo td { border: solid 1px #000; padding: 3px; }
+.tablo tr.titre td { font-weight: bold; text-align: center; }
+
+/*********************/
+/* Blocs descriptifs */
+/*********************/
+
+#content .BD {
+  width: 450px;
+  font-family: corbel, trebuchet ms, verdana, sans-serif;
+  font-size: 100%;
+  text-align: left;
+}
+
+#content .BD .BDtitre {
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  padding: 3px;
+  text-indent: 0;
+  font-size: large;
+}
+
+#content .BD .BDtitre div {
+  color: #fff;
+}
+
+#content .BD div.box {
+    display: block;
+    border: none;
+}
+
+#content .BD .BDsoustitre,
+#content .BD div.box {
+  color: black;
+  padding: 0 1px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  text-indent: 0;
+  margin: 2px 0;
+}
+
+#content .BD .BDtexte {
+  padding: 1px 0 1px 8px;
+  text-indent: -8px;
+  text-align: left;
+}
+
+#content .BD .BDsorts {
+  padding: 1px 0 1px 16px;
+  text-indent: -8px;
+  text-align: left;
+  font-size: 105%
+}
+
+#content .BD ul .BDsoustitre,
+#content .BD ul div.box { margin-left: -8px; }
+
+#content .BD ul ul .BDsoustitre,
+#content .BD ul ul div.box { margin-left: -16px; }
+
+#content .BD ul {
+    list-style: none none inside;
+    margin: 0;
+    padding: 0;
+}
+
+#content .BD li {
+  margin: 0;
+  padding: 1px 0 1px 8px;
+  text-indent: -8px;
+  text-align: left;
+}

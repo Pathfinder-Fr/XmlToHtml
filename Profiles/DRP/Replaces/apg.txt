@@ -1,0 +1,3 @@
+# Ajout abéviation APG
+APG
+<abbr title="Advanced Player's Guide ou Manuel des joueurs Règles avancées">APG</abbr>

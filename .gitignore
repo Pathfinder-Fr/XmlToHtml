@@ -1,0 +1,6 @@
+Bin/
+[bB]in
+[oO]bj
+*.user
+*.suo
+build.log

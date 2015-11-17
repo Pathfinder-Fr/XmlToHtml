@@ -1,0 +1,43 @@
+Ce dossier contient les modèles et documents utilisés lors de la génération d'un site statique à partir des données extraites du wiki.
+
+# Fichier template.html
+
+C'est ce fichier qui contient l'exemple de page à appliquer à toutes les pages. C'est dans ce fichier qu'il faut mettre à jour éventuellement le menu de gauche, ainsi que le code HTML général de la page.
+
+# Dossier "Includes"
+
+Ce dossier contient les fichier qui seront recopiés dans le dossier du site.
+
+C'est dans ce dossier qu'il faut mettre les images, feuilles de styles et autres pages spécifiques.
+
+# Dossier "Replaces"
+
+Ce dossier permet de créer des fichiers textes contenant des expressions régulières à appliquer sur chaque contenu.
+
+Le fichier doit être composé de la manière suivante :
+
+- 1ère ligne : commentaire décrivant l'expression
+- 2nde ligne : expression régulière de recherche
+- 3ème ligne : remplacement à effectuer
+- 4ème ligne : idem 1ère ligne, etc.
+
+Le fichier doit donc contenir un multiple de 3 lignes.
+
+# Dossier "Specifics"
+
+Ce dossier contient la structure des pages spécifiques qui n'existent pas dans le wiki mais doivent être générées.
+
+Copiez-collez une page existante et modifiez son contenu à l'aide d'un éditeur de texte pour mettre les informations sur votre page.
+
+Seule la partie "Title" est réellement importante et doit être renseignée.
+
+Veillez à bien nommer le fichier comme celui qui se trouve dans "Overrides" (voir plus bas).
+
+# Dossier "Overrides"
+
+Il contient les pages qui remplacent celles du wiki.
+
+Ce dossier est utile si une page du wiki ne convient pas, et si vous souhaitez un contenu spécifique pour le site. Dans ce cas, ce fichier contiendra le contenu HTML à utiliser en lieu et place du contenu du wiki.
+
+C'est aussi dans ce dossier qu'il faut mettre le contenu des pages spécifiques créés dans le dossier "Specifics".
+

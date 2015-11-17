@@ -1,0 +1,142 @@
+﻿/* CSS RESET */
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+:focus { outline: 0; } /* remember to define focus styles! */
+ins { text-decoration: none; } /* remember to highlight inserts somehow! */
+del { text-decoration: line-through; }
+table { border-collapse: collapse; border-spacing: 0; } /* tables still need 'cellspacing="0"' in the markup */
+
+/**********/
+/* Layout */
+/**********/
+#page { margin: 1em; }
+
+body, table { font-family: Calibri, Trebuchet MS, Tahoma; }
+
+a { color: #4b44c8; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+h1 { font-size: 1.4em; padding: .5em 0; }
+h2 { font-size: 1.2em; }
+  h2.separator { border-bottom: solid 1px #000; padding-bottom: 4px; margin-bottom: 2px; }
+h3 { font-size: 1.1em; }
+
+ul { list-style: disc none inside; }
+ul li,
+ol li { margin-left: 1em; }
+
+table td { vertical-align: top; }
+table.page { width: 100%; }
+table.espace-col td { padding: 0 12px; }
+
+.tablo caption { font-size: 1.1em; font-weight: bold; }
+.tablo td { border: solid 1px #000; padding: 3px; }
+.tablo tr.titre td { font-weight: bold; text-align: center; }
+
+#TocContainer { display: none; }
+
+/***************************/
+/* Theme BlackBookEditions */
+/***************************/
+
+#footer ul { list-style: none; margin: 0; padding: 0; }
+#footer ul li { margin: 0; padding: 0; }
+#footer ul li a { display: block; float: left; }
+
+#content { width: 100%; height: 100%; }
+
+/***********************/
+/* CSS Specifique Wiki */
+/***********************/
+
+
+/*********************/
+/* Blocs descriptifs */
+/*********************/
+
+#content .BD {
+  width: 450px;
+  font-family: corbel, trebuchet ms, verdana, sans-serif;
+  font-size: 100%;
+  text-align: left;
+}
+
+#content .BD .BDtitre {
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  padding: 3px;
+  text-indent: 0;
+  font-size: large;
+}
+
+#content .BD .BDtitre div {
+  color: #fff;
+}
+
+#content .BD div.box {
+    display: block;
+    border: none;
+}
+
+#content .BD .BDsoustitre,
+#content .BD div.box {
+  color: black;
+  padding: 0 1px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  text-indent: 0;
+  margin: 2px 0;
+}
+
+#content .BD .BDtexte {
+  padding: 1px 0 1px 8px;
+  text-indent: -8px;
+  text-align: left;
+}
+
+#content .BD .BDsorts {
+  padding: 1px 0 1px 16px;
+  text-indent: -8px;
+  text-align: left;
+  font-size: 105%
+}
+
+#content .BD ul .BDsoustitre,
+#content .BD ul div.box { margin-left: -8px; }
+
+#content .BD ul ul .BDsoustitre,
+#content .BD ul ul div.box { margin-left: -16px; }
+
+#content .BD ul {
+    list-style: none none inside;
+    margin: 0;
+    padding: 0;
+}
+
+#content .BD li {
+  margin: 0;
+  padding: 1px 0 1px 8px;
+  text-indent: -8px;
+  text-align: left;
+}

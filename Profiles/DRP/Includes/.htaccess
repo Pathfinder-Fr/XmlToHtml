@@ -1,0 +1,13 @@
+DirectoryIndex Index.html
+
+# Inutile desormais car le serveur gere correctement les fichiers en UTF-8
+#RewriteEngine On
+
+# List all files
+#RewriteRule ^FindAll\.debug$ /read.php?list=1 [B,L]
+
+# Show debug informations about a file read
+#RewriteRule ^(.*)\.html\.debug$ /read.php?debug=1&file=$1 [B,L]
+
+# Read the file
+#RewriteRule ^(.*)\.html$ /read.php?file=$1 [B,L]
