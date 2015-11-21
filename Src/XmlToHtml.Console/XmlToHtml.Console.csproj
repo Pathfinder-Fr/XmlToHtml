@@ -8,7 +8,7 @@
     <ProjectGuid>{AEE5C3DD-6857-43A1-A39D-BBC233FC4BD0}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PathfinderFr.XmlToHtml</RootNamespace>
+    <RootNamespace>XmlToHtml</RootNamespace>
     <AssemblyName>XmlToHtml</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
