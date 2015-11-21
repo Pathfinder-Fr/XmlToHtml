@@ -5,7 +5,7 @@ using System.Xml.Serialization;
 using System.Text.RegularExpressions;
 using System.Text;
 
-namespace PathfinderFr.XmlToHtml.Commands
+namespace XmlToHtml.Commands
 {
     abstract class CommandBase
     {

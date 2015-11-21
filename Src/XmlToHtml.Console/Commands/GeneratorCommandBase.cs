@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
-namespace PathfinderFr.XmlToHtml.Commands
+namespace XmlToHtml.Commands
 {
     class GeneratorCommandBase : CommandBase
     {

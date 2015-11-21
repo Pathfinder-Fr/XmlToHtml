@@ -1,7 +1,7 @@
-﻿namespace PathfinderFr.XmlToHtml
+﻿namespace XmlToHtml
 {
     using System.Linq;
-    using PathfinderFr.XmlToHtml.Commands;
+    using XmlToHtml.Commands;
 
     class Program
     {

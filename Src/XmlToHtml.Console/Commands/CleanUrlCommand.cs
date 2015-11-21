@@ -4,7 +4,7 @@ using System.Net;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace PathfinderFr.XmlToHtml.Commands
+namespace XmlToHtml.Commands
 {
     class CleanUrlCommand : CommandBase
     {

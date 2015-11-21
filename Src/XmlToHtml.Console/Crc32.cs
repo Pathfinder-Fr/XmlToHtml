@@ -1,4 +1,4 @@
-﻿namespace PathfinderFr.XmlToHtml
+﻿namespace XmlToHtml
 {
     using System;
     using System.Security.Cryptography;

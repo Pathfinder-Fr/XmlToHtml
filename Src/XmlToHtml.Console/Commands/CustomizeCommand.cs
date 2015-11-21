@@ -1,4 +1,4 @@
-﻿namespace PathfinderFr.XmlToHtml.Commands
+﻿namespace XmlToHtml.Commands
 {
     using System;
     using System.IO;
