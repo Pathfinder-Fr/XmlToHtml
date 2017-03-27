@@ -1,11 +1,13 @@
 @echo off
-@set In=..\Db\Raw\Out\Pathfinder-RPG
-@set Profile=.\Profiles\DRP
-@set Zip=..\Db\Raw\Static.7z
-@set Out=..\Static\Nightly
+@set In=..\..\scripts\wikixml\\Pathfinder-RPG
+@set Profile=..\Profiles\DRP
+@set Out=..\..\scripts\html\Nightly
 
-"bin\xmltohtml.exe" generate "%In%" "%Profile%\Specifics" -t:"%Profile%\template.html" -v:"%Profile%\Overrides" -o:"%out%" -r:"%Profile%\Replaces"
+pushd ..\artifacts
 
-robocopy "%Profile%\Includes" "%out%" /NP /NJH
+xmltohtml.exe generate "%In%" "%Profile%\Specifics" -t:"%Profile%\template.html" -v:"%Profile%\Overrides" -o:"%out%" -r:"%Profile%\Replaces"
 
-"tools\7z.exe" a "%Zip%" "%Out%"
+rem robocopy "%Profile%\Includes" "%out%" /NP /NJH
+rem "tools\7z.exe" a "%Zip%" "%Out%"
+
+popd
